@@ -1,0 +1,24 @@
+.cart {
+    max-width: 30rem;
+    background-color: #313131;
+    color: white;
+}
+
+.cart h2 {
+    font-size: 1.25rem;
+    margin: 0.5rem 0;
+    width: 18rem;
+}
+
+.cart ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.floatCart {
+    transition: ease-in-out;
+    position: fixed;
+    right: 0rem;
+    bottom: 1rem;
+}
