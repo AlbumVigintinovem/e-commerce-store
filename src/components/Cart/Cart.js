@@ -13,7 +13,7 @@ const Cart = (props) => {
         <div className={classes.floatCart} >
             <Card className={classes.cart}>
                 <h2>Your Shopping Cart</h2>
-                <div style={{ maxHeight: 400, overflow: "scroll" }} >
+                <div style={{ maxHeight: 400, overflow: "auto" }} >
                     <ul>
                         {items.map(item => <CartItem key={item.id} item={{ name: item.name, quantity: item.quantity, price: item.price, total: item.totalPrice, id: item.id }} />)}
                     </ul>
